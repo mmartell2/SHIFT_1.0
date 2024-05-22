@@ -42,8 +42,8 @@
             <div class="headingsContainer">
                 <p>Enter in new shift information</p>
             </div>
-            <form id="shift-form" action="">
-                <label for="project">Project</label>
+            <form id="shift-form" action="add_shift.php" method="post">
+            <label for="project">Project</label>
                 <input class="shift-input" type="text" placeholder="Project" name="project">
                 <br><br>
                 <label for="date">Date</label>
