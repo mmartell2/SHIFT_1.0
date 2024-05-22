@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHIPPING 436 - Calendar/Shift Selection</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"/>
+  </head>
+
+  <body>
+
+    <header>
+        <nav class="navbar">
+            <div class="img-div">
+                <a href="schedule_manager.html"><img class="logo" src="Images/Shipping_436_Logo.png" alt=""></a>
+            </div>
+            <div class="navtabs">
+                <ul class="navlist">
+                    <li class="navitem">
+                        <a class="navlink-current" href="schedule.html">Calendar/Shift Selection</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink" href="current_shifts.html">Your Shifts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-name">
+                <a class="navlink" href="index.html">Sign-out</a>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Shift 1.0 - Calendar/Shift Selection</h1>
+    <div class="schedule-container">
+        <div class="calendar">
+            <div class="month">
+                <p><</p>
+                <p>November</p>
+                <p>></p>
+            </div>
+            <table class="calendar-table">
+                <tr class="calendar-header">
+                    <th class="calendar-item">Sun</th>
+                    <th class="calendar-item">Mon</th>
+                    <th class="calendar-item">Tue</th>
+                    <th class="calendar-item">Wed</th>
+                    <th class="calendar-item">Thu</th>
+                    <th class="calendar-item">Fri</th>
+                    <th class="calendar-item">Sat</th>
+                </tr>
+                <tr>
+                    <td class="calendar-di">29</td>
+                    <td class="calendar-di">30</td>
+                    <td class="calendar-di">31</td>
+                    <td class="calendar-di">1</td>
+                    <td class="calendar-di">2</td>
+                    <td class="calendar-di">3</td>
+                    <td class="calendar-di">4</td>
+                </tr>
+                <tr>
+                    <td class="calendar-di">5</td>
+                    <td class="calendar-di">6</td>
+                    <td class="calendar-di">7</td>
+                    <td class="calendar-di">8</td>
+                    <td class="calendar-di">9</td>
+                    <td class="calendar-di">10</td>
+                    <td class="calendar-di">11</td>
+                </tr>
+                <tr>
+                    <td class="calendar-di">12</td>
+                    <td class="calendar-di">
+                        13
+                        <p class="ospassed">7PM-8PM</p>
+                    </td>
+                    <td class="calendar-di">14</td>
+                    <td class="calendar-di">15</td>
+                    <td class="calendar-di">16</td>
+                    <td class="calendar-di">17</td>
+                    <td class="calendar-di">18</td>
+                </tr>
+                <tr>
+                    <td class="calendar-di">19</td>
+                    <td class="calendar-di">20</td>
+                    <td class="calendar-di">21</td>
+                    <td class="calendar-di">22</td>
+                    <td class="calendar-di">23</td>
+                    <td class="calendar-di">24</td>
+                    <td class="calendar-di">25</td>
+                </tr>
+                <tr>
+                    <td class="calendar-di">27</td>
+                    <td class="calendar-di">
+                        28
+                        <p class="osclose">7PM-9PM</p>
+                    </td>
+                    <td class="calendar-di">
+                        29
+                        <p class="osclose">5PM-6PM</p>
+                    </td>
+                    <td class="calendar-di">
+                        30
+                        <p>6PM-8PM</p>
+                        <p>6PM-9PM</p>
+                    </td>
+                    <td class="calendar-di">
+                        1
+                        <p>9PM-12AM</p>
+                    </td>
+                    <td class="calendar-di">2</td>
+                    <td class="calendar-di">3</td>
+                </tr>
+            </table>
+        </div>
+        <div class="take-container">
+            <div class="scroll-take">
+                <table class="take-table">
+                    <tr class="take-header">
+                        <th class="take-item"><p>Project</p></th>
+                        <th class="take-item"><p>Date</p></th>
+                        <th class="take-item"><p>Time</p></th>
+                        <th class="take-item"><p>Select</p></th>
+                    </tr>
+                    <tr class="take-row">
+                        <td class="take-data"><p>Unloading Shippments</p></td>
+                        <td class="take-data"><p>11/30/23</p></td>
+                        <td class="take-data"><p>6:00 PM - 8:00 PM</p></td>
+                        <td class="take-data"><input type="checkbox"></td>
+                    </tr>
+                    <tr class="take-row">
+                        <td class="take-data"><p>Unloading Shippments</p></td>
+                        <td class="take-data"><p>11/30/23</p></td>
+                        <td class="take-data"><p>6:00 PM - 8:00 PM</p></td>
+                        <td class="take-data"><input type="checkbox"></td>
+                    </tr>
+                    <tr class="take-row">
+                        <td class="take-data"><p>Unloading Shippments</p></td>
+                        <td class="take-data"><p>11/30/23</p></td>
+                        <td class="take-data"><p>6:00 PM - 8:00 PM</p></td>
+                        <td class="take-data"><input type="checkbox"></td>
+                    </tr>
+                    <tr class="take-row">
+                        <td class="take-data"><p>Unloading Shippments</p></td>
+                        <td class="take-data"><p>11/30/23</p></td>
+                        <td class="take-data"><p>6:00 PM - 8:00 PM</p></td>
+                        <td class="take-data"><input type="checkbox"></td>
+                    </tr>
+                    <tr class="take-row">
+                        <td class="take-data"><p>Unloading Shippments</p></td>
+                        <td class="take-data"><p>11/30/23</p></td>
+                        <td class="take-data"><p>6:00 PM - 8:00 PM</p></td>
+                        <td class="take-data"><input type="checkbox"></td>
+                    </tr>
+                    <tr class="take-row">
+                        <td class="take-data"><p>Unloading Shippments</p></td>
+                        <td class="take-data"><p>11/30/23</p></td>
+                        <td class="take-data"><p>6:00 PM - 8:00 PM</p></td>
+                        <td class="take-data"><input type="checkbox"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="take-btn">
+                <button class="btnlogin"><strong>Take Shift</strong></button>
+            </div>
+        </div>
+    </div>
+
+
+  </body>
+</html>
